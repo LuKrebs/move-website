@@ -111,15 +111,14 @@ p {
   position: relative;
 	background: url("../img/feature.jpg") no-repeat center center;
 	background-size: cover;
+  
 }
 
 .feature h1 {
 	margin: 0;
-  position: absolute;
-	top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
+  position: relative;
+  line-height: 550px;
+  vertical-align: middle;
 }
 
 .coltwo {
@@ -144,18 +143,20 @@ p {
 /* Footer */
 .footer {
   height: 700px;
+  text-align: center;
   background: url("../img/footer.jpg") no-repeat center center;
   background-size: cover;
-  position: relative;
+  line-height: 80px;
+
 }
 
 .footer h2 {
-  margin: 0;
-  position: absolute;
-	top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
+  color: white;
+  margin: 300px 0 0 0;
+  position: relative;
+  vertical-align: middle;
+  font-size: 50px;
+
 }
 
 .footer a {
@@ -164,32 +165,14 @@ p {
   font-size: 18px;
   padding: 8px 30px;
   text-decoration: none;
-  margin: 0;
-  position: absolute;
-	top: 65%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
+  position: relative;
+  vertical-align: middle;
 }
 
 .footer a:hover {
   background-color: #ffa800;
   color: black;
   transition: background 0.5s;
-}
-
-.footer h1,
-.footer h2 {
-  color: #fff;
-  font-size: 40px;
-  margin: 0 0 20px 0;
-  padding:50px 0 0;
-}
-
-.footer p {
-  color: #fff;
-  margin: 0 0 20px 0;
-  font-size: 18px;
 }
 
 
